@@ -38,12 +38,6 @@
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         </repository>
 
-        <!--<repository>
-            <id>maven.net.cn</id>
-            <name>Human Readable Name for this Mirror.</name>
-            <url>http://maven.net.cn/content/groups/public/</url>
-        </repository>-->
-
         <repository>
             <id>central-repos</id>
             <name>Central Repository</name>
@@ -68,11 +62,6 @@
             <url>https://maven.alfresco.com/nexus/content/groups/public</url>
         </repository>
 
-        <!--<repository>
-            <id>activiti-repos2</id>
-            <name>Activiti Repository 2</name>
-            <url>https://app.camunda.com/nexus/content/groups/public</url>
-        </repository>-->
     </repositories>
 
 
@@ -109,6 +98,8 @@
         <aspectjrt.version>1.8.9</aspectjrt.version>
         <aopalliance.version>1.0</aopalliance.version>
         <pagehelper.version>1.2.5</pagehelper.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <logback.version>1.2.3</logback.version>
     </properties>
 
     <dependencyManagement>
@@ -248,7 +239,6 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
-        <!-- restTemplate -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
@@ -264,9 +254,27 @@
             <artifactId>commons-net</artifactId>
             <version>${commons-net.version}</version>
         </dependency>
+        <!-- 日志 s -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+        <!-- 日志 e -->
     </dependencies>
 
     <build>
+        <!-- jar包名称 -->
         <!--<finalName>${project.artifactId}</finalName>-->
         <plugins>
             <!-- 指定jdk -->
