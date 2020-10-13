@@ -89,7 +89,7 @@
         <fastjson-version>1.2.47</fastjson-version>
         <spring-kafka.version>2.2.2.RELEASE</spring-kafka.version>
         <zookeeper.version>3.4.13</zookeeper.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <httpclient.version>4.5.5</httpclient.version>
         <jackson.dataformat.version>2.7.4</jackson.dataformat.version>
         <lombok.version>1.16.20</lombok.version>
