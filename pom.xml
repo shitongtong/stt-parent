@@ -90,7 +90,7 @@
         <spring-kafka.version>2.2.2.RELEASE</spring-kafka.version>
         <zookeeper.version>3.4.13</zookeeper.version>
         <junit.version>4.12</junit.version>
-        <httpclient.version>4.5.5</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
         <jackson.dataformat.version>2.7.4</jackson.dataformat.version>
         <lombok.version>1.16.20</lombok.version>
         <swagger2.version>2.8.0</swagger2.version>
