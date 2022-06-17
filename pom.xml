@@ -86,7 +86,7 @@
         <commons-lang3.version>3.7</commons-lang3.version>
         <redisson.version>3.7.0</redisson.version>
         <org.quartz-scheduler-version>2.3.0</org.quartz-scheduler-version>
-        <fastjson-version>1.2.47</fastjson-version>
+        <fastjson-version>1.2.83</fastjson-version>
         <spring-kafka.version>2.2.2.RELEASE</spring-kafka.version>
         <zookeeper.version>3.4.13</zookeeper.version>
         <junit.version>4.12</junit.version>
